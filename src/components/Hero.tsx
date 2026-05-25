@@ -228,8 +228,7 @@ export default function Hero() {
             {/* Download Resume */}
             <a
               href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Arpit_Sharma_Resume.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-7 py-3 text-sm font-semibold text-gray-200 backdrop-blur-md transition-all duration-300 hover:border-violet-500/50 hover:bg-white/10 hover:text-white"
             >
               <FaDownload className="text-violet-400" />
